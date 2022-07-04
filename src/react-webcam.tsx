@@ -158,7 +158,7 @@ export default class Webcam extends React.Component<WebcamProps, WebcamState> {
 
   componentWillUnmount() {
     this.unmounted = true;
-    this.stopAndCleanup();
+    // this.stopAndCleanup();
   }
 
   private static stopMediaStream(stream: MediaStream | null) {
